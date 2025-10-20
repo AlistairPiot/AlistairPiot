@@ -1,7 +1,6 @@
 ## Hi there 👋
 
-💻 Web developer
-💼 Student at MyDigitalSchool
+💻 Web developer in freelance
 
 
 ## 🌐 Socials:
