@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=34&duration=2800&pause=1200&color=FFFFFF&center=true&vCenter=true&width=720&lines=Salut%2C+je+suis+Alistair+👋;Développeur+Freelance+Full-Stack;Je+construis+des+SaaS+%26+apps+web" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=1200&color=FFFFFF&center=true&vCenter=true&width=720&lines=Salut%2C+je+suis+Alistair+%F0%9F%91%8B;D%C3%A9veloppeur+Freelance+Full-Stack;Je+construis+des+SaaS+%26+apps+web" alt="Alistair Piot — Développeur Freelance" />
 
 <br/>
 
