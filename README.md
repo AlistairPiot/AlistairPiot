@@ -1,25 +1,87 @@
-## Hi there 👋
+<div align="center">
 
-💻 Web developer in freelance
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=34&duration=2800&pause=1200&color=FFFFFF&center=true&vCenter=true&width=720&lines=Salut%2C+je+suis+Alistair+👋;Développeur+Freelance+Full-Stack;Je+construis+des+SaaS+%26+apps+web" alt="Typing SVG" />
 
+<br/>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alistair-piot/) 
+> **Je transforme des idées en produits web concrets — rapides à lancer, pensés pour scaler.**
+>
+> SaaS · Applications métier · Logiciels web · Next.js · TypeScript · Tailwind
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Symfony](https://img.shields.io/badge/symfony-%23000000.svg?style=for-the-badge&logo=symfony&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)  ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)   
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=AlistairPiot&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=AlistairPiot&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AlistairPiot&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br/>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=AlistairPiot&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+[![Portfolio](https://img.shields.io/badge/🌐%20alistairpiot.dev-000000?style=for-the-badge&logoColor=white)](https://alistairpiot.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alistair-piot/)
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=AlistairPiot&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=AlistairPiot&icon=0&color=9)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🚀 Projets récents
+
+<table>
+  <tr>
+    <td valign="top" width="33%">
+      <h3>💸 Payo365</h3>
+      <p>La solution ultra-simple pour freelances et créateurs. Générez un lien, partagez-le et encaissez instantanément.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" />
+        <img src="https://img.shields.io/badge/Live-00C853?style=flat-square&logoColor=white" />
+      </p>
+      <a href="https://payo365.com"><strong>→ payo365.com</strong></a>
+    </td>
+    <td valign="top" width="33%">
+      <h3>🧠 NeonTwin</h3>
+      <p>Votre jumeau numérique stratégique. Une IA qui mémorise tout, détecte vos angles morts et vous conseille comme un partenaire senior.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/IA-7C3AED?style=flat-square&logoColor=white" />
+        <img src="https://img.shields.io/badge/En_dev-F59E0B?style=flat-square&logoColor=white" />
+      </p>
+    </td>
+    <td valign="top" width="33%">
+      <h3>🎨 Vasy</h3>
+      <p>La plateforme des créateurs français. Découvrez des produits artisanaux uniques créés par des artisans passionnés.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/En_dev-F59E0B?style=flat-square&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠 Stack
+
+<div align="center">
+
+| Frontend | Backend | Outils |
+|:---:|:---:|:---:|
+| Next.js · React · TypeScript | Node.js · Prisma · PostgreSQL | Vercel · Stripe · Figma |
+| Tailwind CSS · Shadcn/ui | API REST · Supabase | Notion · Git |
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlistairPiot&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlistairPiot&theme=tokyonight&hide_border=true&layout=compact&count_private=true)
+
+</div>
+
+---
+
+<div align="center">
+
+**Un projet en tête ? Je serais ravi d'en discuter.**
+
+[![Voir mon portfolio](https://img.shields.io/badge/Voir_mon_portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://alistairpiot.dev)
+
+</div>
