@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-label="STACK"><title>STACK</title><style>
+@keyframes draw{from{stroke-dashoffset:900}to{stroke-dashoffset:0}}
+.line{stroke-dasharray:900;animation:draw 2.4s cubic-bezier(.2,.8,.2,1) .2s both}
+@keyframes run{from{transform:translateX(0)}to{transform:translateX(840px)}}
+.run{animation:run 3.5s linear infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cursor{animation:blink 1s steps(1) infinite}
+</style>
+<defs><linearGradient id="hlstack" x1="0" x2="1"><stop offset="0" stop-color="#00f0ff"/><stop offset="0.5" stop-color="#ff2bd6"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></linearGradient></defs>
+<text x="0" y="50" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', ui-monospace, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#00f0ff" letter-spacing="2">02</text>
+<text x="48" y="52" font-family="'Segoe UI', 'SF Pro Display', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff" letter-spacing="1">STACK</text>
+<rect x="153" y="30" width="12" height="24" fill="#ff2bd6" class="cursor"/>
+<text x="1200" y="50" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', ui-monospace, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#6b7aa0" letter-spacing="2">ORBITAL TECH MAP</text>
+<path d="M0 70H1200" stroke="#1b2140" stroke-width="2"/>
+<path d="M0 70H900" stroke="url(#hlstack)" stroke-width="2" class="line"/>
+<g class="run"><rect x="0" y="68" width="60" height="4" rx="2" fill="#fff" opacity="0.9"/></g></svg>
