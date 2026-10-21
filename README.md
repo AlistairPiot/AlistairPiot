@@ -6,9 +6,9 @@
 
 <img src="assets/header-projects.svg" width="100%" alt="01 — Projets" />
 
+<a href="https://neontwin.fr"><img src="assets/card-neontwin.svg" width="32.5%" alt="NeonTwin — Votre jumeau numérique stratégique propulsé par l'IA. En développement." /></a>
+<a href="https://vasycreation.fr"><img src="assets/card-vasy.svg" width="32.5%" alt="Vasy — La plateforme des créateurs français. En développement." /></a>
 <a href="https://payo365.com"><img src="assets/card-payo365.svg" width="32.5%" alt="Payo365 — La solution ultra-simple pour freelances et créateurs. Live." /></a>
-<img src="assets/card-neontwin.svg" width="32.5%" alt="NeonTwin — Votre jumeau numérique stratégique propulsé par l'IA. En développement." />
-<img src="assets/card-vasy.svg" width="32.5%" alt="Vasy — La plateforme des créateurs français. En développement." />
 
 <br/><br/>
 

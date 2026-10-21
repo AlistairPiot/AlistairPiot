@@ -34,6 +34,28 @@ AMBER = "#ffb020"
 
 PROJECTS = [
     {
+        "slug": "neontwin",
+        "name": "NeonTwin",
+        "url": "https://neontwin.fr",
+        "lines": ["Votre jumeau numérique stratégique : une IA", "qui mémorise tout, détecte vos angles morts", "et vous conseille comme un associé senior."],
+        "tags": [("Next.js", "#e6e6e6"), ("IA", "#b28cff")],
+        "status": "IN DEV",
+        "glyph": "twin",
+        "accent": MAGENTA,
+        "cta": True,
+    },
+    {
+        "slug": "vasy",
+        "name": "Vasy",
+        "url": "https://vasycreation.fr",
+        "lines": ["La plateforme des créateurs français.", "Des produits artisanaux uniques, créés", "par des artisans passionnés."],
+        "tags": [("Next.js", "#e6e6e6"), ("Tailwind", "#38bdf8")],
+        "status": "IN DEV",
+        "glyph": "vasy",
+        "accent": CYAN,
+        "cta": True,
+    },
+    {
         "slug": "payo365",
         "name": "Payo365",
         "url": "https://payo365.com",
@@ -42,26 +64,7 @@ PROJECTS = [
         "status": "LIVE",
         "glyph": "pay",
         "accent": LIME,
-    },
-    {
-        "slug": "neontwin",
-        "name": "NeonTwin",
-        "url": None,
-        "lines": ["Votre jumeau numérique stratégique : une IA", "qui mémorise tout, détecte vos angles morts", "et vous conseille comme un associé senior."],
-        "tags": [("Next.js", "#e6e6e6"), ("IA", "#b28cff")],
-        "status": "IN DEV",
-        "glyph": "twin",
-        "accent": MAGENTA,
-    },
-    {
-        "slug": "vasy",
-        "name": "Vasy",
-        "url": None,
-        "lines": ["La plateforme des créateurs français.", "Des produits artisanaux uniques, créés", "par des artisans passionnés."],
-        "tags": [("Next.js", "#e6e6e6"), ("Tailwind", "#38bdf8")],
-        "status": "IN DEV",
-        "glyph": "vasy",
-        "accent": CYAN,
+        "cta": False,
     },
 ]
 
@@ -533,9 +536,8 @@ def build_card(p, i, n):
 <clipPath id="cp{sid}"><rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="16"/></clipPath>
 <pattern id="dots{sid}" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" opacity="0.06"/></pattern>
 </defs>
-<style>@keyframes pulse{{0%,100%{{opacity:1}}50%{{opacity:.3}}}}.pulse{{animation:pulse 1.4s ease-in-out infinite}}
-@keyframes up{{from{{opacity:0;transform:translateY(10px)}}to{{opacity:1;transform:none}}}}.up{{animation:up .8s {0.15 + i * 0.2:.2f}s both}}</style>""",
-            f'<g class="up">',
+<style>@keyframes pulse{{0%,100%{{opacity:1}}50%{{opacity:.3}}}}.pulse{{animation:pulse 1.4s ease-in-out infinite}}</style>""",
+            f'<g>{intro(0.15 + i * 0.2, 0.8)}',
             f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="16" fill="#070914"/>',
             f'<g clip-path="url(#cp{sid})"><rect width="{W}" height="{H}" fill="url(#dots{sid})"/><rect width="{W}" height="{H}" fill="url(#gl{sid})"/>'
             f'<rect x="-200" y="0" width="160" height="{H}" fill="url(#sh{sid})" transform="skewX(-20)"><animate attributeName="x" values="-260;{W + 120}" dur="4.5s" begin="{i * 1.2:.1f}s" repeatCount="indefinite"/></rect></g>',
@@ -556,9 +558,9 @@ def build_card(p, i, n):
         body.append(f'<rect x="{x}" y="252" width="{w}" height="24" rx="6" fill="{col}" fill-opacity="0.1" stroke="{col}" stroke-opacity="0.45"/>'
                     f'<text x="{x + w / 2}" y="268.5" text-anchor="middle" font-family="{MONO}" font-size="12" font-weight="700" fill="{col}">{label}</text>')
         x += w + 8
-    if p["url"]:
+    if p["cta"]:
         body.append(f'<text x="{W - 26}" y="269" text-anchor="end" font-family="{MONO}" font-size="13" font-weight="700" fill="{a}">VISITER →<animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/></text>')
-    else:
+    elif not live:
         # build progress bar
         body.append(f'<rect x="{W - 136}" y="261" width="110" height="5" rx="2.5" fill="#1b2140"/>'
                     f'<rect x="{W - 136}" y="261" width="0" height="5" rx="2.5" fill="{a}"><animate attributeName="width" values="0;84;78;96;0" keyTimes="0;0.4;0.55;0.9;1" dur="6s" repeatCount="indefinite"/></rect>'
